@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:url_strategy/url_strategy.dart';
 
 void main() {
+  // Remove the ugly url parts.
+  setPathUrlStrategy();
+
   runApp(const MyApp());
 }
 
